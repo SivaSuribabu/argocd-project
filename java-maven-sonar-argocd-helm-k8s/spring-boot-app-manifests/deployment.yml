@@ -18,4 +18,4 @@ spec:
       - name: spring-boot-app
         image: sivasuribabu/ultimate-cicd:8
         ports:
-        - containerPort: 8080
+        - containerPort: 8010
