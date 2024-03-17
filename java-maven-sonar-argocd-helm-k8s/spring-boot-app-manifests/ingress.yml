@@ -4,11 +4,11 @@ metadata:
   name: spring-boot-app
 spec:
   rules:
-  - host: "foo.bar.com"
+  - host: foo.bar.com
     http:
       paths:
       - pathType: Prefix
-        path: "/bar"
+        path: /bar
         backend:
           service:
             name: spring-boot-app
